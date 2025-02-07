@@ -58,3 +58,4 @@ def create_app(test_config=None):
 
         return jsonify({'prediction': prediction})
     return app
+
